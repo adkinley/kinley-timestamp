@@ -1,0 +1,24 @@
+<div class="container"> <h1>API Basejump: Timestamp microservice</h1>
+
+User stories:
+<ol>
+  <li>I can pass a stirng as a parameter, and it wil check to see whether that string contains either a unix timestamp of a natural language date (example: January 1, 20167)</li>
+  <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+  <li>If it does not contain a date or Unix timestamp, it returns null for those properties</li>
+</ol>
+<p>
+<h3>Example usage:</h3>
+<pre>https://kinley-timestamp.herokuapp.com/December%2015,%202015</pre>
+<pre>https://kinley-timestamp.herokuapp.com/1450137600</pre>
+</p>
+<p>
+<h3>Example output</h3>
+<pre>{"unix": 1450137600,"natural":"December 15, 2015"}</pre>
+</p>
+<footer class="footer">
+  <div class="container">
+      <p>Angular Fullstack v2.1.1 |
+        <a href="https://twitter.com/adkinley">@adkinley</a> |
+  </div>
+</footer>
+</div>
